@@ -24,10 +24,16 @@ Hydroxyurea (HU) isa very important medication in the management of Sickle Cell 
 
 📊 Visualizations:
 1) Volcano Plot:
-Through this plot, the upregulated and downregulated genes were highlighted post HU treatment. 
+Through this plot, the upregulated and downregulated genes were highlighted post HU treatment.
 
-2) PCA Plot:
+![volcano_plot](https://github.com/user-attachments/assets/b51200ff-e6e0-46cb-a491-a9801310350b)
+
+
+3) PCA Plot:
 Revealed clear separation between Pre-HU and HU-MTD samples, suggesting systemic transcriptomic changes post-treatment.
+
+![pca_plot](https://github.com/user-attachments/assets/687c6a86-06bf-4d0f-a4cb-e90a717b6268)
+
 
 
 ## Functional Enrichment Analysis
@@ -41,7 +47,16 @@ By using ```clusterProfiler``` and ```org.Hs.eg.db``` enrichment analysis was pe
 Upregulated and downregulated genes were mapped to gene symbols and analyzed separately.
 
 ## Results
-Enrichment analysis of upregulated genes in pediatric sickle cell patients treated with Hydroxyurea at maximum tolerated dose revealed significant enrichment of processes related to protein folding and cellular stress responses, including heat shock pathways. Additionally, pathways involved in oxidative stress management and interleukin-8 mediated inflammatory signaling were highlighted. These findings suggest that Hydroxyurea may exert non-HbF-related effects by modulating oxidative stress and immune homeostasis, potentially contributing to its overall therapeutic profile. Downregulated genes were significantly enriched for biological processes involved in adaptive immune signaling, particularly those related to T-cell activation, receptor-mediated signaling, and lymphocyte differentiation. These results suggest that Hydroxyurea at maximum tolerated dose may exert immunomodulatory effects by suppressing T-cell mediated responses in pediatric SCD patients. Such effects could contribute to reduced inflammation or immune-related complications in SCD, representing potential non-HbF-mediated therapeutic actions of Hydroxyurea
+Enrichment analysis of upregulated genes in pediatric sickle cell patients treated with Hydroxyurea at maximum tolerated dose revealed significant enrichment of processes related to protein folding and cellular stress responses, including heat shock pathways. Additionally, pathways involved in oxidative stress management and interleukin-8 mediated inflammatory signaling were highlighted. These findings suggest that Hydroxyurea may exert non-HbF-related effects by modulating oxidative stress and immune homeostasis, potentially contributing to its overall therapeutic profile. Downregulated genes were significantly enriched for biological processes involved in adaptive immune signaling, particularly those related to T-cell activation, receptor-mediated signaling, and lymphocyte differentiation. 
+
+
+![down regulated genes plot](https://github.com/user-attachments/assets/0d4b2e90-6c62-40da-8d1b-73e71a6558d0)
+
+
+![Upregulated genes plot](https://github.com/user-attachments/assets/f4a2f85f-4b35-4513-a9a8-f2bc2d41d83b)
+
+
+These results suggest that Hydroxyurea at maximum tolerated dose may exert immunomodulatory effects by suppressing T-cell mediated responses in pediatric SCD patients. Such effects could contribute to reduced inflammation or immune-related complications in SCD, representing potential non-HbF-mediated therapeutic actions of Hydroxyurea
 
 ## Conclusion
 The findings reinforce that Hydroxyurea exerts non-HbF-related effects by influencing gene networks involved in cellular stress responses and immune modulation. These insights contribute to a deeper understanding of HU’s mechanism of action and highlight potential biomarkers or therapeutic targets in pediatric SCD care.
