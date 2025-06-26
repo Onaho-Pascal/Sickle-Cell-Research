@@ -31,6 +31,10 @@ Revealed clear separation between Pre-HU and HU-MTD samples, suggesting systemic
 
 
 ## Functional Enrichment Analysis
-Steps taken: 
-After getting the DESeq2 results in a CSV file, 
+**Steps taken:** 
+After getting the DESeq2 results in a CSV file, a combination of IF(AND) functions and conditional formatting were used to select for upregulated and downregulated genes.  
+The conditions were, **if log2FoldChange > 1 & padj < 0.05, then genes were upregulated. If log2FoldChange < -1 & padj < 0.05, then genes were downregulated.**
+Then both up and down-regulated genes were filtered and transfered to different ".txt" files. These files were then passed into R in order to 
+get the pathways they represent.
+
 Enrichment analysis of upregulated genes in pediatric sickle cell patients treated with Hydroxyurea at maximum tolerated dose revealed significant enrichment of processes related to protein folding and cellular stress responses, including heat shock pathways. Additionally, pathways involved in oxidative stress management and interleukin-8 mediated inflammatory signaling were highlighted. These findings suggest that Hydroxyurea may exert non-HbF-related effects by modulating oxidative stress and immune homeostasis, potentially contributing to its overall therapeutic profile. Downregulated genes were significantly enriched for biological processes involved in adaptive immune signaling, particularly those related to T-cell activation, receptor-mediated signaling, and lymphocyte differentiation. These results suggest that Hydroxyurea at maximum tolerated dose may exert immunomodulatory effects by suppressing T-cell mediated responses in pediatric SCD patients. Such effects could contribute to reduced inflammation or immune-related complications in SCD, representing potential non-HbF-mediated therapeutic actions of Hydroxyurea
